@@ -1,0 +1,10 @@
+D:\EduardSoltuzu\workspaceTests\VisualStudio\loginPage\loginPage\bin\Debug\loginPage.exe.config
+D:\EduardSoltuzu\workspaceTests\VisualStudio\loginPage\loginPage\bin\Debug\loginPage.exe
+D:\EduardSoltuzu\workspaceTests\VisualStudio\loginPage\loginPage\bin\Debug\loginPage.pdb
+D:\EduardSoltuzu\workspaceTests\VisualStudio\loginPage\loginPage\obj\Debug\loginPage.csprojResolveAssemblyReference.cache
+D:\EduardSoltuzu\workspaceTests\VisualStudio\loginPage\loginPage\obj\Debug\loginPage.Form1.resources
+D:\EduardSoltuzu\workspaceTests\VisualStudio\loginPage\loginPage\obj\Debug\loginPage.Properties.Resources.resources
+D:\EduardSoltuzu\workspaceTests\VisualStudio\loginPage\loginPage\obj\Debug\loginPage.csproj.GenerateResource.Cache
+D:\EduardSoltuzu\workspaceTests\VisualStudio\loginPage\loginPage\obj\Debug\loginPage.exe
+D:\EduardSoltuzu\workspaceTests\VisualStudio\loginPage\loginPage\obj\Debug\loginPage.pdb
+D:\EduardSoltuzu\workspaceTests\VisualStudio\loginPage\loginPage\obj\Debug\loginPage.MainForm.resources
