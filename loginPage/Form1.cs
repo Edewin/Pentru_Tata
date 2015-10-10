@@ -28,8 +28,8 @@ namespace loginPage
 
             sql.openMySQL();
             MySqlCommand select_command;
-            select_command = sql.ExecuteQuerry("SELECT * FROM test.users WHERE username='"
-                                              + textBoxUserName.Text + "' AND password='"
+            select_command = sql.ExecuteQuerry("SELECT * FROM membri.users WHERE user_name='"
+                                              + textBoxUserName.Text + "' AND user_password='"
                                               + textBoxPassword.Text + "';", sql.GetConnection());
 
             
@@ -47,6 +47,7 @@ namespace loginPage
                 if (count == 1)
                 {
                     // MessageBox.Show("you`re in");
+                    //hide this form, open the new one
                     this.Hide();
                     
                     th = new Thread(openNewForm);

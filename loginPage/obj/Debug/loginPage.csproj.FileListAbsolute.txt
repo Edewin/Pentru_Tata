@@ -8,3 +8,14 @@ D:\EduardSoltuzu\workspaceTests\VisualStudio\loginPage\loginPage\obj\Debug\login
 D:\EduardSoltuzu\workspaceTests\VisualStudio\loginPage\loginPage\obj\Debug\loginPage.exe
 D:\EduardSoltuzu\workspaceTests\VisualStudio\loginPage\loginPage\obj\Debug\loginPage.pdb
 D:\EduardSoltuzu\workspaceTests\VisualStudio\loginPage\loginPage\obj\Debug\loginPage.MainForm.resources
+D:\GitHub\Pentru_Tata\loginPage\bin\Debug\loginPage.exe.config
+D:\GitHub\Pentru_Tata\loginPage\obj\Debug\loginPage.exe
+D:\GitHub\Pentru_Tata\loginPage\obj\Debug\loginPage.pdb
+D:\GitHub\Pentru_Tata\loginPage\bin\Debug\loginPage.exe
+D:\GitHub\Pentru_Tata\loginPage\bin\Debug\loginPage.pdb
+D:\GitHub\Pentru_Tata\loginPage\bin\Debug\MySql.Data.dll
+D:\GitHub\Pentru_Tata\loginPage\obj\Debug\loginPage.csprojResolveAssemblyReference.cache
+D:\GitHub\Pentru_Tata\loginPage\obj\Debug\loginPage.Form1.resources
+D:\GitHub\Pentru_Tata\loginPage\obj\Debug\loginPage.MainForm.resources
+D:\GitHub\Pentru_Tata\loginPage\obj\Debug\loginPage.Properties.Resources.resources
+D:\GitHub\Pentru_Tata\loginPage\obj\Debug\loginPage.csproj.GenerateResource.Cache

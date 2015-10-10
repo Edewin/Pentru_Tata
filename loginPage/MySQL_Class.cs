@@ -10,7 +10,7 @@ namespace loginPage
 {
     public class MySQL_Class
     {
-        private static string connStringSQL = "Server=localhost; Port=3306; Database=test; Uid=root; Pwd=root;";
+        private static string connStringSQL = "Server=localhost; Port=3306; Database=membri; Uid=root1; Pwd=root;";
         private MySqlConnection conn;
         private MySqlCommand command;
 
