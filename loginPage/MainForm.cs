@@ -112,6 +112,11 @@ namespace loginPage
         {
         }
 
+        private void label31_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void buttonInsert_Click(object sender, EventArgs e)
         {
             try

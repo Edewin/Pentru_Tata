@@ -30,7 +30,7 @@ namespace loginPage
             MySqlCommand select_command;
             select_command = sql.ExecuteQuerry("SELECT * FROM membri.users WHERE user_name='"
                                               + textBoxUserName.Text + "' AND user_password='"
-                                              + textBoxPassword.Text + "';", sql.GetConnection());
+                                              + textBoxPassword.Text.GetHashCode().ToString() + "';", sql.GetConnection());
 
             
             MySqlDataReader myReader;
@@ -75,6 +75,10 @@ namespace loginPage
             Application.Run(new MainForm());
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+           // textBox1.Text = textBoxPassword.Text.GetHashCode().ToString();
+        }
     }
 
        

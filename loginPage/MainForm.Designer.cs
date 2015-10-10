@@ -128,7 +128,10 @@
             this.label31 = new System.Windows.Forms.Label();
             this.dateTimePicker8 = new System.Windows.Forms.DateTimePicker();
             this.label32 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label33 = new System.Windows.Forms.Label();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -143,6 +146,7 @@
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -754,9 +758,9 @@
             this.groupBox4.Controls.Add(this.dateTimePicker2);
             this.groupBox4.Controls.Add(this.label21);
             this.groupBox4.Controls.Add(this.comboBox5);
-            this.groupBox4.Location = new System.Drawing.Point(570, 429);
+            this.groupBox4.Location = new System.Drawing.Point(677, 429);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(554, 96);
+            this.groupBox4.Size = new System.Drawing.Size(447, 96);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "E. Date privind iesirea din evidenta membrilor bisericii";
@@ -1194,50 +1198,54 @@
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.panel3);
             this.groupBox6.Location = new System.Drawing.Point(4, 546);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(1124, 264);
+            this.groupBox6.Size = new System.Drawing.Size(1124, 309);
             this.groupBox6.TabIndex = 6;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "D.2. Date privind familia  -> Copiii";
             // 
             // groupBox7
             // 
+            this.groupBox7.Controls.Add(this.textBox22);
             this.groupBox7.Controls.Add(this.textBox21);
+            this.groupBox7.Controls.Add(this.label34);
+            this.groupBox7.Controls.Add(this.label33);
             this.groupBox7.Controls.Add(this.label31);
             this.groupBox7.Controls.Add(this.dateTimePicker8);
             this.groupBox7.Controls.Add(this.label32);
-            this.groupBox7.Controls.Add(this.comboBox6);
             this.groupBox7.Location = new System.Drawing.Point(4, 438);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(560, 87);
+            this.groupBox7.Size = new System.Drawing.Size(667, 87);
             this.groupBox7.TabIndex = 7;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "D.1. Date privind familia  -> Sotul/Sotia";
             // 
             // textBox21
             // 
-            this.textBox21.Location = new System.Drawing.Point(114, 58);
+            this.textBox21.Location = new System.Drawing.Point(132, 26);
             this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(276, 23);
+            this.textBox21.Size = new System.Drawing.Size(258, 23);
             this.textBox21.TabIndex = 5;
             // 
             // label31
             // 
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(22, 61);
+            this.label31.Location = new System.Drawing.Point(22, 29);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(86, 15);
+            this.label31.Size = new System.Drawing.Size(110, 15);
             this.label31.TabIndex = 4;
-            this.label31.Text = "De la Biserica:";
+            this.label31.Text = "Nume si Prenume:";
+            this.label31.Click += new System.EventHandler(this.label31_Click);
             // 
             // dateTimePicker8
             // 
             this.dateTimePicker8.CustomFormat = "yyyy-MM-dd";
             this.dateTimePicker8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker8.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker8.Location = new System.Drawing.Point(274, 23);
+            this.dateTimePicker8.Location = new System.Drawing.Point(497, 26);
             this.dateTimePicker8.Name = "dateTimePicker8";
             this.dateTimePicker8.Size = new System.Drawing.Size(116, 21);
             this.dateTimePicker8.TabIndex = 3;
@@ -1246,25 +1254,49 @@
             // 
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(217, 29);
+            this.label32.Location = new System.Drawing.Point(412, 29);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(51, 15);
+            this.label32.Size = new System.Drawing.Size(79, 15);
             this.label32.TabIndex = 1;
-            this.label32.Text = "La data:";
+            this.label32.Text = "Data nasterii:";
             // 
-            // comboBox6
+            // panel3
             // 
-            this.comboBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "prin transfer",
-            "prin botez",
-            "la cerere"});
-            this.comboBox6.Location = new System.Drawing.Point(21, 25);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(190, 23);
-            this.comboBox6.TabIndex = 0;
-            this.comboBox6.Text = "Selecteaza modul de primire";
+            this.panel3.AutoScroll = true;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(3, 19);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1118, 287);
+            this.panel3.TabIndex = 0;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(22, 57);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(79, 15);
+            this.label33.TabIndex = 4;
+            this.label33.Text = "in localitatea:";
+            this.label33.Click += new System.EventHandler(this.label31_Click);
+            // 
+            // textBox22
+            // 
+            this.textBox22.Location = new System.Drawing.Point(107, 54);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(185, 23);
+            this.textBox22.TabIndex = 5;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(346, 57);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(44, 15);
+            this.label34.TabIndex = 4;
+            this.label34.Text = "religia:";
+            this.label34.Click += new System.EventHandler(this.label31_Click);
             // 
             // MainForm
             // 
@@ -1302,6 +1334,7 @@
             this.groupBox5.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             this.ResumeLayout(false);
@@ -1409,6 +1442,9 @@
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.DateTimePicker dateTimePicker8;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label33;
     }
 }
