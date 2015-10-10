@@ -132,6 +132,9 @@
             this.label33 = new System.Windows.Forms.Label();
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.textBox24 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -163,7 +166,7 @@
             this.tabControl1.Multiline = true;
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1138, 891);
+            this.tabControl1.Size = new System.Drawing.Size(1142, 891);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -180,7 +183,7 @@
             this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage1.Size = new System.Drawing.Size(1130, 862);
+            this.tabPage1.Size = new System.Drawing.Size(1134, 862);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Adauga Persoane";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -242,7 +245,7 @@
             this.groupBox1.Location = new System.Drawing.Point(4, 4);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(1);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1122, 147);
+            this.groupBox1.Size = new System.Drawing.Size(1126, 147);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -669,7 +672,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 891);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1138, 40);
+            this.panel1.Size = new System.Drawing.Size(1142, 40);
             this.panel1.TabIndex = 2;
             // 
             // comboBox3
@@ -758,9 +761,9 @@
             this.groupBox4.Controls.Add(this.dateTimePicker2);
             this.groupBox4.Controls.Add(this.label21);
             this.groupBox4.Controls.Add(this.comboBox5);
-            this.groupBox4.Location = new System.Drawing.Point(677, 429);
+            this.groupBox4.Location = new System.Drawing.Point(683, 444);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(447, 96);
+            this.groupBox4.Size = new System.Drawing.Size(444, 96);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "E. Date privind iesirea din evidenta membrilor bisericii";
@@ -826,7 +829,7 @@
             this.groupBox5.Size = new System.Drawing.Size(557, 264);
             this.groupBox5.TabIndex = 5;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "C. Date prind actele de cult oficiate";
+            this.groupBox5.Text = "C. Date privind actele de cult oficiate";
             // 
             // tableLayoutPanel2
             // 
@@ -1208,8 +1211,11 @@
             // 
             // groupBox7
             // 
+            this.groupBox7.Controls.Add(this.textBox24);
+            this.groupBox7.Controls.Add(this.textBox23);
             this.groupBox7.Controls.Add(this.textBox22);
             this.groupBox7.Controls.Add(this.textBox21);
+            this.groupBox7.Controls.Add(this.label35);
             this.groupBox7.Controls.Add(this.label34);
             this.groupBox7.Controls.Add(this.label33);
             this.groupBox7.Controls.Add(this.label31);
@@ -1217,25 +1223,26 @@
             this.groupBox7.Controls.Add(this.label32);
             this.groupBox7.Location = new System.Drawing.Point(4, 438);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(667, 87);
+            this.groupBox7.Size = new System.Drawing.Size(667, 102);
             this.groupBox7.TabIndex = 7;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "D.1. Date privind familia  -> Sotul/Sotia";
             // 
             // textBox21
             // 
-            this.textBox21.Location = new System.Drawing.Point(132, 26);
+            this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox21.Location = new System.Drawing.Point(148, 26);
             this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(258, 23);
+            this.textBox21.Size = new System.Drawing.Size(258, 21);
             this.textBox21.TabIndex = 5;
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.Location = new System.Drawing.Point(22, 29);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(110, 15);
+            this.label31.Size = new System.Drawing.Size(126, 15);
             this.label31.TabIndex = 4;
             this.label31.Text = "Nume si Prenume:";
             this.label31.Click += new System.EventHandler(this.label31_Click);
@@ -1245,7 +1252,7 @@
             this.dateTimePicker8.CustomFormat = "yyyy-MM-dd";
             this.dateTimePicker8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker8.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker8.Location = new System.Drawing.Point(497, 26);
+            this.dateTimePicker8.Location = new System.Drawing.Point(538, 26);
             this.dateTimePicker8.Name = "dateTimePicker8";
             this.dateTimePicker8.Size = new System.Drawing.Size(116, 21);
             this.dateTimePicker8.TabIndex = 3;
@@ -1253,10 +1260,10 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(412, 29);
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(435, 29);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(79, 15);
+            this.label32.Size = new System.Drawing.Size(93, 15);
             this.label32.TabIndex = 1;
             this.label32.Text = "Data nasterii:";
             // 
@@ -1272,38 +1279,66 @@
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.Location = new System.Drawing.Point(22, 57);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(79, 15);
+            this.label33.Size = new System.Drawing.Size(94, 15);
             this.label33.TabIndex = 4;
             this.label33.Text = "in localitatea:";
             this.label33.Click += new System.EventHandler(this.label31_Click);
             // 
             // textBox22
             // 
-            this.textBox22.Location = new System.Drawing.Point(107, 54);
+            this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox22.Location = new System.Drawing.Point(117, 54);
             this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(185, 23);
+            this.textBox22.Size = new System.Drawing.Size(139, 21);
             this.textBox22.TabIndex = 5;
             // 
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(346, 57);
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(258, 57);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(44, 15);
+            this.label34.Size = new System.Drawing.Size(52, 15);
             this.label34.TabIndex = 4;
             this.label34.Text = "religia:";
             this.label34.Click += new System.EventHandler(this.label31_Click);
+            // 
+            // textBox23
+            // 
+            this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox23.Location = new System.Drawing.Point(308, 55);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(121, 21);
+            this.textBox23.TabIndex = 5;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(435, 57);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(127, 15);
+            this.label35.TabIndex = 4;
+            this.label35.Text = "Fisa personala nr.:";
+            this.label35.Click += new System.EventHandler(this.label31_Click);
+            // 
+            // textBox24
+            // 
+            this.textBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox24.Location = new System.Drawing.Point(566, 54);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(88, 21);
+            this.textBox24.TabIndex = 5;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1138, 931);
+            this.ClientSize = new System.Drawing.Size(1142, 931);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1446,5 +1481,8 @@
         private System.Windows.Forms.TextBox textBox22;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.Label label35;
     }
 }
